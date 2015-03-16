@@ -14,6 +14,9 @@ bool find_triple(int i,int j);
 int combination(int x,int y);
 int _tmain(int argc, _TCHAR* argv[])
 {
+	///////////////////////////////
+	//存成林街串列/////////////////
+	///////////////////////////////
 	for(int i=0;i<916426;i++)
 		list[i].clear();
 	vector<string> v ;
@@ -35,6 +38,9 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 		c++;
 	}
+	//////////////////////////////////////////////
+	//印出林街串列////////////////////////////////
+	//////////////////////////////////////////////
 	/*
 	fstream fp;
     fp.open("out.txt", ios::out);
@@ -53,6 +59,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 	fp.close();
 	*/
+	/////////////////////////////////////////////////
+	//計算clustering cofficient//////////////////////
+	/////////////////////////////////////////////////
 	fstream fp;
     fp.open("out2.txt", ios::out);
 
